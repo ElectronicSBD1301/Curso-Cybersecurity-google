@@ -472,10 +472,1625 @@ Wi-Fi Protected Access (WPA): A wireless security protocol for devices to connec
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+A smurf attack is a network attack that is performed when an attacker sniffs an authorized user’s IP address and floods it with packets.
 
+A Denial of Service attack is a class of attacks where the attacker prevents the compromised system from performing legitimate activity or responding to legitimate traffic. 
+
+An on-path attack happens when a hacker intercepts the communication between two devices or servers that have a trusted relationship. The transmission between these two trusted network devices could contain valuable information like usernames and passwords that the malicious actor can collect. An on-path attack is sometimes referred to as a meddler-in-the middle attack because the hacker is hiding in the middle of communications between two trusted parties.
+
+packet sniffing is the practice of capturing and inspecting data packets across a network. On a private network, data packets are directed to the matching destination device on the network. 
+
+Active packet sniffing: A type of attack where data packets are manipulated in transit
+
+Botnet: A collection of computers infected by malware that are under the control of a single threat actor, known as the “bot-herder"
+
+Denial of service (DoS) attack: An attack that targets a network or server and floods it with network traffic
+
+Distributed denial of service (DDoS) attack: A type of denial of service attack that uses multiple devices or servers located in different locations to flood the target network with unwanted traffic
+
+Internet Control Message Protocol (ICMP): An internet protocol used by devices to tell each other about data transmission errors across the network
+
+Internet Control Message Protocol (ICMP) flood: A type of DoS attack performed by an attacker repeatedly sending ICMP request packets to a network server
+
+IP spoofing: A network attack performed when an attacker changes the source IP of a data packet to impersonate an authorized system and gain access to a network
+
+On-path attack: An attack where a malicious actor places themselves in the middle of an authorized connection and intercepts or alters the data in transit
+
+Packet sniffing: The practice of capturing and inspecting data packets across a network 
+
+Passive packet sniffing: A type of attack where a malicious actor connects to a network hub and looks at all traffic on the network
+
+Ping of death: A type of DoS attack caused when a hacker pings a system by sending it an oversized ICMP packet that is bigger than 64KB
+
+Replay attack: A network attack performed when a malicious actor intercepts a data packet in transit and delays it or repeats it at another time
+
+Smurf attack: A network attack performed when an attacker sniffs an authorized user’s IP address and floods it with ICMP packets
+
+Synchronize (SYN) flood attack: A type of DoS attack that simulates a TCP/IP connection and floods a server with SYN packets
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+What is OS Hardening?
 
+The operating system acts as the bridge between your hardware and software. If it's vulnerable, your entire network could be at risk.
+OS hardening involves regular and one-time tasks to strengthen your system's security.
+Regular OS Hardening Tasks
+
+Patch Updates: Regularly updating your OS with the latest patches from vendors is crucial to fix security vulnerabilities and protect against malicious actors.
+Hardware/Software Disposal: Properly wiping and disposing of old hardware and deleting unused software applications helps eliminate potential entry points for attackers.
+
+A baseline configuration is a documented set of specifications within a system that is used as a basis for future builds, releases, and updates. For example, a baseline may contain a firewall rule with a list of allowed and disallowed network ports. If a security team suspects unusual activity affecting the OS, they can compare the current configuration to the baseline and make sure that nothing has been changed.
+
+MFA is a security measure which requires a user to verify their identity in two or more ways to access a system or network. Ways of identifying yourself include something you know, like a password, something you have like an ID card, or something unique about you, like your fingerprint.
+
+A brute force attack is a trial-and-error process of discovering private information. There are different types of brute force attacks that malicious actors use to guess passwords, including: 
+
+Simple brute force attacks. When attackers try to guess a user's login credentials, it’s considered a simple brute force attack. They might do this by entering any combination of usernames and passwords that they can think of until they find the one that works.
+
+Dictionary attacks use a similar technique. In dictionary attacks, attackers use a list of commonly used passwords and stolen credentials from previous breaches to access a system. These are called “dictionary” attacks because attackers originally used a list of words from the dictionary to guess the passwords, before complex password rules became a common security practice. 
+
+Virtual machines (VMs) are software versions of physical computers. VMs provide an additional layer of security for an organization because they can be used to run code in an isolated environment, preventing malicious code from affecting the rest of the computer or system. VMs can also be deleted and replaced by a pristine image after testing malware. 
+
+A sandbox is a type of testing environment that allows you to execute software or programs separate from your network. They are commonly used for testing patches, identifying and addressing bugs, or detecting cybersecurity vulnerabilities. Sandboxes can also be used to evaluate suspicious software, evaluate files containing malicious code, and simulate attack scenarios. 
+
+Baseline configuration (baseline image): A documented set of specifications within a system that is used as a basis for future builds, releases, and updates
+
+Hardware: The physical components of a computer
+
+Multi-factor authentication (MFA): A security measure which requires a user to verify their identity in two or more ways to access a system or network
+
+Network log analysis: The process of examining network logs to identify events of interest 
+
+Operating system (OS): The interface between computer hardware and the user
+
+Patch update: A software and operating system update that addresses security vulnerabilities within a program or product
+
+Penetration testing (pen test): A simulated attack that helps identify vulnerabilities in systems, networks, websites, applications, and processes 
+
+Security hardening: The process of strengthening a system to reduce its vulnerabilities and attack surface
+
+Security information and event management (SIEM): An application that collects and analyzes log data to monitor critical activities for an organization
+
+World-writable file: A file that can be altered by anyone in the world
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+operating system? It's the interface between the computer hardware and the user. The operating system, or the OS as it's commonly called, is responsible for making the computer run as efficiently as possible while also making it easy to use. Hardware may be another new term. Hardware refers to the physical components of a computer.
+
+User
+The first part of the process is the user. The user initiates the process by having something they want to accomplish on the computer. Right now, you’re a user!  You’ve initiated the process of accessing this reading.
+
+Application
+The application is the software program that users interact with to complete a task. For example, if you want to calculate something, you would use the calculator application. If you want to write a report, you would use a word processing application. This is the second part of the process.
+
+Operating system
+The operating system receives the user’s request from the application. It’s the operating system’s job to interpret the request and direct its flow. In order to complete the task, the operating system sends it on to applicable components of the hardware. 
+
+Hardware
+The hardware is where all the processing is done to complete the tasks initiated by the user. For example, when a user wants to calculate a number, the CPU figures out the answer. As another example, when a user wants to save a file, another component of the hardware, the hard drive, handles this task. 
+
+After the work is done by the hardware, it sends the output back through the operating system to the application so that it can display the results to the user.
+
+A virtual machine (VM) is a virtual version of a physical computer. Virtual machines are one example of virtualization. Virtualization is the process of using software to create virtual representations of various physical machines. 
+
+Random Access Memory (RAM) is a hardware component used for short-term memory. If a computer has 16GB of RAM, it can host three virtual machines so that the physical computer and virtual machines each have 4GB of RAM. Also, each of these virtual machines would have their own operating system and function similarly to a typical computer.
+
+Application: A program that performs a specific task
+
+Basic Input/Output System (BIOS): A microchip that contains loading instructions for the computer and is prevalent in older systems 
+
+Bootloader: A software program that boots the operating system
+
+Command-line interface (CLI): A text-based user interface that uses commands to interact with the computer
+
+Graphical user interface (GUI): A user interface that uses icons on the screen to manage different tasks on the computer
+
+Hardware: The physical components of a computer
+
+Legacy operating system: An operating system that is outdated but still being used
+
+Operating system (OS): The interface between computer hardware and the user
+
+Random Access Memory (RAM): A hardware component used for short-term memory
+
+Unified Extensible Firmware Interface (UEFI): A microchip that contains loading instructions for the computer and replaces BIOS on more modern systems
+
+User interface: A program that allows the user to control the functions of the operating system
+
+Virtual machine (VM): A virtual version of a physical computer
+
+
+A penetration test is a simulated attack that helps identify vulnerabilities in systems, networks, websites, applications, and processes. 
+
+Digital forensics is the process of collecting and analyzing data to determine what has happened after an attack.
+
+A package is a piece of software that can be combined with other packages to form an application. Some packages may be large enough to form applications on their own. 
+
+A package manager is a tool that helps users install, manage, and remove packages or applications. Linux uses multiple package managers. 
+
+Advanced Package Tool (APT) 
+APT is a tool used with Debian-derived distributions. It is run from the command-line interface to manage, search, and install packages.
+
+Yellowdog Updater Modified (YUM)
+YUM is a tool used with Red Hat-derived distributions. It is run from the command-line interface to manage, search, and install packages. YUM works with .rpm files.
+
+CTRL + C: Terminates a command that is currently running; from the instructions portion of Qwiklabs, you can use CTRL + C to copy, but within the terminal, it will only terminate a command and if one isn't running, it will display ^C at the prompt
+
+CTRL + V: Pastes text
+
+clear: Clears the terminal screen; this can also be done by entering CTRL + L
+
+CTRL + A: Sets your cursor at the beginning of a command
+
+CTRL + E: Sets your cursor at the end of a command
+
+Left arrow key: Moves left within a command
+
+Right arrow key: Moves right within a command
+
+Up arrow key: Provides the last command you entered into the command line; can be entered multiple times to go through multiple commands from the command history
+
+Down arrow key: Provides the next command in the command history; must be after using the up arrow key
+
+Tab key: Provides available suggestions for completing your text 
+
+Application: A program that performs a specific task
+
+Bash: The default shell in most Linux distributions
+
+CentOS: An open-source distribution that is closely related to Red Hat
+
+Central Processing Unit (CPU): A computer’s main processor, which is used to perform general computing tasks on a computer
+
+Command: An instruction telling the computer to do something
+
+Digital forensics: The practice of collecting and analyzing data to determine what has happened after an attack
+
+Directory: A file that organizes where other files are stored
+
+Distributions: The different versions of Linux
+
+File path: The location of a file or directory
+
+Filesystem Hierarchy Standard (FHS): The component of the Linux OS that organizes data
+
+Graphical user interface (GUI): A user interface that uses icons on the screen to manage different tasks on the computer
+
+Hard drive: A hardware component used for long-term memory
+
+Hardware: The physical components of a computer
+
+Internal hardware: The components required to run the computer
+
+Kali Linux ™: An open-source distribution of Linux that is widely used in the security industry
+
+Kernel: The component of the Linux OS that manages processes and memory
+
+Linux: An open source operating system
+
+Package: A piece of software that can be combined with other packages to form an application
+
+Package manager: A tool that helps users install, manage, and remove packages or applications
+
+Parrot: An open-source distribution that is commonly used for security
+
+Penetration test (pen test): A simulated attack that helps identify vulnerabilities in systems, networks, websites, applications, and processes
+
+Peripheral devices: Hardware components that are attached and controlled by the computer system
+
+Random Access Memory (RAM): A hardware component used for short-term memory
+
+Red Hat® Enterprise Linux® (also referred to simply as Red Hat in this course): A subscription-based distribution of Linux built for enterprise use
+
+Shell: The command-line interpreter 
+
+Standard error: An error message returned by the OS through the shell
+
+Standard input: Information received by the OS via the command line
+
+Standard output: Information returned by the OS through the shell
+
+String data: Data consisting of an ordered sequence of characters
+
+Ubuntu: An open-source, user-friendly distribution that is widely used in security and other industries
+
+User: The person interacting with a computer
+
+
+pwd prints the working directory onto the screen.
+
+cd navigates between directories.
+
+ls displays the names of files and directories in the current working directory.
+
+cat displays the content of a file. 
+
+head command. It displays just the beginning of a file, by default ten lines.
+
+The tail command does the opposite of head. This command can be used to display just the end of a file, by default 10 lines. Entering tail updates.txt returns only the last 10 lines of the updates.txt file.
+
+The less command returns the content of a file one page at a time. For example, entering less updates.txt changes the terminal window to display the contents of updates.txt one page at a time. This allows you to easily move forward and backward through the content. 
+
+/home: Each user in the system gets their own home directory.
+
+/bin: This directory stands for “binary” and contains binary files and other executables. Executables are files that contain a series of commands a computer needs to follow to run programs and perform other functions.
+
+/etc: This directory stores the system’s configuration files.
+
+/tmp: This directory stores many temporary files. The /tmp directory is commonly used by attackers because anyone in the system can modify data in these files.
+
+/mnt: This directory stands for “mount” and stores media, such as USB drives and hard drives.
+
+Space bar: Move forward one page
+
+b: Move back one page
+
+Down arrow: Move forward one line
+
+Up arrow: Move back one line
+
+q: Quit and return to the previous terminal window
+
+An absolute file path is the full file path that starts from the root, and a relative file path is a shorter file path that starts from the current directory.
+
+The piping command sends a standard output of one command as standard input into another command for further processing. 
+
+The grep command searches a specified file and returns all lines in the file containing a specified string.
+
+The find command searches for directories and files that meet specified criteria. There’s a wide range of criteria that can be specified with find.
+
+The mkdir command creates a new directory.
+
+rmdir removes or deletes a directory
+
+The touch command creates a new file.
+
+rm command removes or deletes a file. 
+
+The mv command moves a file or directory to new location.
+
+cp copies a file or directory into a new location.
+
+read permissions means contents on the file can be read.
+
+Write permissions on a file allow modifications of contents of the file. On a directory, write permissions indicate that new files can be created in that directory.
+
+Execute permissions on files mean that the file can be executed if it's an executable file. Execute permissions on directories allow users to enter into a directory and access its files.
+
+The user is the owner of the file. When you create a file, you become the owner of the file, but the ownership can be changed. 
+
+Group is the next type. Every user is a part of a certain group. A group consists of several users, and this is one way to manage a multi-user environment.
+
+Other can be considered all other users on the system. Basically, anyone else with access to the system belongs to this group.
+
+The first character indicates the file type. As shown in this example, d is used to indicate it is a directory. If this character contains a hyphen instead, it would be a regular file. The second, third, and fourth characters indicate the permissions for the user. In this example, r indicates the user has read permissions, w indicates the user has write permissions, and x indicates the user has execute permissions. If one of these permissions was missing, there would be a hyphen instead of the letter. In the same way, the fifth, sixth, and seventh characters indicate permissions for the next owner type group. As it shows here, the type group also has read, write, and execute permissions. There are no hyphens to indicate that any of these permissions haven't been granted. Finally, the eighth through tenth characters indicate permissions for the last owner type: other. They also have read, write, and execute permissions in this example.
+
+ls -a: Displays hidden files. Hidden files start with a period (.) at the beginning.
+
+ls -l: Displays permissions to files and directories. Also displays other additional information, including owner name, group, file size, and the time of last modification.
+
+ls -la: Displays permissions to files and directories, including hidden files. This is a combination of the other two options.
+
+The chmod  command can help you manage this authorization. The chmod command changes permissions on files and directories.
+
+read: for files, this is the ability to read the file contents; for directories, this is the ability to read all contents in the directory including both files and subdirectories
+
+write: for files, this is the ability to make modifications on the file contents; for directories, this is the ability to create new files in the directory
+
+execute: for files, this is the ability to execute the file if it’s a program; for directories, this is the ability to enter the directory and access its files
+
+Absolute file path: The full file path, which starts from the root
+
+Argument (Linux): Specific information needed by a command
+
+Authentication: The process of verifying who someone is
+
+Authorization: The concept of granting access to specific resources in a system
+
+Bash: The default shell in most Linux distributions
+
+Command: An instruction telling the computer to do something
+
+File path: The location of a file or directory
+
+Filesystem Hierarchy Standard (FHS): The component of the Linux OS that organizes data
+
+Filtering: Selecting data that match a certain condition
+
+nano: A command-line file editor that is available by default in many Linux distributions
+
+Options: Input that modifies the behavior of a command
+
+Permissions: The type of access granted for a file or directory
+
+Principle of least privilege: The concept of granting only the minimal access and authorization required to complete a task or function
+
+Relative file path: A file path that starts from the user's current directory
+
+Root directory: The highest-level directory in Linux
+
+Root user (or superuser): A user with elevated privileges to modify the system
+
+Standard input: Information received by the OS via the command line
+
+Standard output: Information returned by the OS through the shell
+
+The man command displays information on other commands and how they work. It’s short for “manual.” To search for information on a command, enter the command after man. 	
+
+The apropos command searches the man page descriptions for a specified string. Man pages can be lengthy and difficult to search through if you’re looking for a specific keyword. To use apropos, enter the keyword after apropos. You can also include the -a option to search for multiple words. For example, entering apropos -a graph editor outputs man pages that contain both the words “graph" and "editor” in their descriptions.
+
+The whatis command displays a description of a command on a single line. For example, entering whatis nano outputs the description of nano. This command is useful when you don't need a detailed description, just a general idea of the command. This might be as a reminder. Or, it might be after you discover a new command through a colleague or online resource and want to know more. 
+
+Database: An organized collection of information or data
+
+Date and time data: Data representing a date and/or time
+
+Exclusive operator: An operator that does not include the value of comparison
+
+Filtering: Selecting data that match a certain condition
+
+Foreign key: A column in a table that is a primary key in another table 
+
+Inclusive operator: An operator that includes the value of comparison
+
+Log: A record of events that occur within an organization's systems
+
+Numeric data: Data consisting of numbers
+
+Operator: A symbol or keyword that represents an operation
+
+Primary key: A column where every row has a unique entry
+
+Query: A request for data from a database table or a combination of tables
+
+Relational database: A structured database containing tables that are related to each other
+
+String data: Data consisting of an ordered sequence of characters
+
+SQL (Structured Query Language): A programming language used to create, interact with, and request information from a database
+
+Syntax: The rules that determine what is correctly structured in a computing language
+
+Wildcard: A special character that can be substituted with any other character
+
+
+
+
+
+
+a risk is anything that can impact the confidentiality, integrity, or availability of an asset.
+
+an asset is an item perceived as having value to an organization.
+
+a threat is any circumstance or event that can negatively impact assets.
+
+a vulnerability is a weakness that can be exploited by a threat.
+
+asset classification is the practice of labeling assets based on the sensitivity and importance to an organization.
+
+Restricted is the highest level. This category is reserved for incredibly sensitive assets,  like need-to-know information.
+
+Confidential refers to assets whose disclosure may lead to a significant negative impact on an organization.
+
+Internal-only describes assets that are available to employees and business partners.
+
+Public is the lowest level of classification. These assets have no negative consequences to the organization if they’re released.
+
+Data is information that is translated, processed, or stored by a computer. We live in a connected world.
+
+Data in use is data being accessed by one or more users.
+
+Data in transit is data traveling from one point to another.
+
+Data at rest is data not currently being accessed.
+
+Information security, or InfoSec, is the practice of keeping data in all states away from unauthorized users.
+
+Software as a service (SaaS)
+SaaS refers to front-end applications that users access via a web browser. The service providers host, manage, and maintain all of the back-end systems for those applications. Common examples of SaaS services include applications like Gmail™ email service, Slack, and Zoom software.
+
+Platform as a service (PaaS)
+PaaS refers to back-end application development tools that clients can access online. Developers use these resources to write code and build, manage, and deploy their own apps. Meanwhile, the cloud service providers host and maintain the back-end hardware and software that the apps use to operate. Some examples of PaaS services include Google App Engine™ platform, Heroku®, and VMware Cloud Foundry. 
+
+Infrastructure as a service (IaaS)
+IaaS customers are given remote access to a range of back-end systems that are hosted by the cloud service provider. This includes data processing servers, storage, networking resources, and more. Resources are commonly licensed as needed, making it a cost-effective alternative to buying and maintaining on premises.
+
+Misconfiguration is one of the biggest concerns. Customers of cloud-based services are responsible for configuring their own security environment. Oftentimes, they use out-of-the-box configurations that fail to address their specific security objectives.
+
+Cloud-native breaches are more likely to occur due to misconfigured services.
+
+Monitoring access might be difficult depending on the client and level of service.
+
+Meeting regulatory standards is also a concern, particularly in industries that are required by law to follow specific requirements such as HIPAA, PCI DSS, and GDPR.
+
+A policy in security is a set of rules that reduce risk and protects information. 
+
+Standards are the next part. These have a tactical function, as they concern how well we're protecting assets. 
+
+Procedures are step-by-step instructions to perform a specific security task.
+
+Compliance is the process of adhering to internal standards and external regulations.
+
+Regulations are rules set by a government or other authority to control the way something is done. 
+
+The core is basically a simplified version of the functions, or duties, of a security plan. 
+
+Tiers. These provide security teams with a way to measure
+
+The CSF profiles are pre-made templates of the NIST CSF that are developed by a team of industry experts. 
+
+National Institute of Standards and Technology (NIST) Cybersecurity Framework (CSF): A voluntary framework that consists of standards, guidelines, and best practices to manage cybersecurity risk
+
+Technical control types include the many technologies used to protect assets. This includes encryption, authentication systems, and others.
+
+Operational controls relate to maintaining the day-to-day security environment. Generally, people perform these controls like awareness training and incident response.
+
+Managerial controls are centered around how the other two reduce risk. Examples of management controls include policies, standards, and procedures.
+
+PII is any information used to infer an individual's identity. Personally identifiable information, or PII, refers to information that can be used to contact or locate someone.
+
+PHI stands for protected health information.  In the U.S., it is regulated by the Health Insurance Portability and Accountability Act (HIPAA), which defines PHI as “information that relates to the past, present, or future physical or mental health or condition of an individual.” In the EU, PHI has a similar definition but it is regulated by the General Data Protection Regulation (GDPR).
+
+SPII is a specific type of PII that falls under stricter handling guidelines. The S stands for sensitive, meaning this is a type of personally identifiable information that should only be accessed on a need-to-know basis, such as a bank account number or login credentials.
+
+Information privacy refers to the protection of unauthorized access and distribution of data.
+
+Information security (InfoSec) refers to the practice of keeping data in all states away from unauthorized users.
+
+GDPR is a set of rules and regulations developed by the European Union (EU) that puts data owners in total control of their personal information.
+
+PCI DSS is a set of security standards formed by major organizations in the financial industry. This regulation aims to secure credit and debit card transactions against data theft and fraud.
+
+HIPAA is a U.S. law that requires the protection of sensitive patient health information. HIPAA prohibits the disclosure of a person's medical information without their knowledge and consent.
+
+A security audit is a review of an organization's security controls, policies, and procedures against a set of expectations.
+
+A security assessment is a check to determine how resilient current security implementations are against threats.
+
+Cryptography is the process of transforming information into a form that unintended readers can't understand.
+
+brute force attack, a trial-and-error process of discovering private information.
+
+Public key infrastructure, or PKI, is an encryption framework that secures the exchange of information online.
+
+Asymmetric encryption involves the use of a public and private key pair for encryption and decryption of data.
+
+Symmetric encryption, on the other hand, is a faster and simpler approach to key management. Symmetric encryption involves the use of a single secret key to exchange information.
+
+A digital certificate is a file that verifies the identity of a public key holder.
+
+Cipher: an algorithm that encrypts information
+
+A hash function is an algorithm that produces a code that can't be decrypted.
+
+This is known as non-repudiation, the concept that authenticity of information can't be denied.
+
+A rainbow table is a file of pre-generated hash values and their associated plaintext. They’re like dictionaries of weak passwords.
+
+Salting is an additional safeguard that's used to strengthen hash functions. A salt is a random string of characters that's added to data before it's hashed.
+
+ access controls, the security controls that manage access, authorization, and accountability of information
+
+Authentication systems are access controls that serve a very basic purpose.
+
+Authentication by knowledge refers to something the user knows, like a password or the answer to a security question they provided previously.
+
+Another factor is ownership, referring to something the user possesses. A commonly used type of authentication by ownership is a one-time passcode, or OTP. You've probably experienced these at one time or another. They're a random number sequence that an application or website will send you via text or email and ask you to provide.
+
+characteristic. Authentication by this factor is something the user is. Biometrics, like fingerprint scans on your smartphone, are example of this type of authentication. While not used everywhere, this form of authentication is becoming more common because it's much tougher for criminals to impersonate someone if they have to mimic a fingerprint or facial scan as opposed to a password.
+
+Single sign-on, or SSO, is a technology that combines several different logins into one.
+
+Multi-factor authentication, or MFA, is a security measure, which requires a user to verify their identity in two or more ways to access a system or network.
+
+Authorization is linked to the idea that access to information only lasts as long as needed.
+
+Separation of duties is the principle that users should not be given levels of authorization that will allow them to misuse a system.
+
+HTTP uses what is known as basic auth, the technology used to establish a user's request to access a server. Basic auth works by sending an identifier every time a user communicates with a web page.
+
+OAuth is an open-standard authorization protocol that shares designated access between applications.
+
+An API token is a small block of encrypted code that contains information about a user.
+
+Accounting is the practice of monitoring the access logs of a system.
+
+ A session ID is a unique token that identifies a user and their device while accessing the system.
+
+A session cookie is a token that websites use to validate a session and determine how long that session should last. 
+
+Session hijacking is an event when attackers obtain a legitimate user's session ID.
+
+The principle of least privilege in which a user is only granted the minimum level of access and authorization required to complete a task or function.
+
+ Identity and access management (IAM) is a collection of processes and technologies that helps organizations manage digital identities in their environment.
+
+Knowledge, or something the user knows
+
+Ownership, or something the user possesses
+
+Characteristic, or something the user is
+
+User provisioning is the process of creating and maintaining a user's digital identity.
+
+MAC is the strictest of the three frameworks. Authorization in this model is based on a strict need-to-know basis. 
+
+DAC is typically applied when a data owner decides appropriate levels of access. One example of DAC is when the owner of a Google Drive folder shares editor, viewer, or commentor access with someone else.
+
+RBAC is used when authorization is determined by a user's role within an organization. For example, a user in the marketing department may have access to user analytics but not network administration.
+
+Vulnerability management is the process of finding vulnerabilities and fixing their exploits.
+
+Advanced persistent threat (APT): An instance when a threat actor maintains unauthorized access to a system for an extended period of time 
+
+Attack surface: All the potential vulnerabilities that a threat actor could exploit
+
+Attack tree: A diagram that maps threats to assets
+
+Attack vector: The pathways attackers use to penetrate security defenses 
+
+Bug bounty: Programs that encourage freelance hackers to find and report vulnerabilities
+
+Common Vulnerabilities and Exposures (CVE®) list: An openly accessible dictionary of known vulnerabilities and exposures
+
+Common Vulnerability Scoring System (CVSS): A measurement system that scores the severity of a vulnerability
+
+CVE Numbering Authority (CNA): An organization that volunteers to analyze and distribute information on eligible CVEs
+
+Defense in depth: A layered approach to vulnerability management that reduces risk
+
+Exploit: A way of taking advantage of a vulnerability
+
+Exposure: A mistake that can be exploited by a threat
+
+Hacker: Any person who uses computers to gain access to computer systems, networks, or data
+
+MITRE: A collection of non-profit research and development centers
+
+Security hardening: The process of strengthening a system to reduce its vulnerability and attack surface
+
+Threat actor: Any person or group who presents a security risk
+
+Vulnerability: A weakness that can be exploited by a threat
+
+Vulnerability assessment: The internal review process of a company’s security systems
+
+Vulnerability management: The process of finding and patching vulnerabilities
+
+Vulnerability scanner: Software that automatically compares existing common vulnerabilities and exposures against the technologies on the network
+
+Zero-day: An exploit that was previously unknown
+
+Identification: A vulnerable server is flagged because it's running an outdated operating system (OS).
+
+Vulnerability analysis: Research is done on the outdated OS and its vulnerabilities.
+
+Risk assessment: After doing your due diligence, the severity of each vulnerability is scored and the impact of not fixing it is evaluated.
+
+Remediation: Finally, the information that you’ve gathered can be used to address the issue.
+
+Competitors refers to rival companies who pose a threat because they might benefit from leaked information.
+
+State actors are government intelligence agencies.
+
+Criminal syndicates refer to organized groups of people who make money from criminal activity.
+
+Insider threats can be any individual who has or had authorized access to an organization’s resources. This includes employees who accidentally compromise assets or individuals who purposefully put them at risk for their own benefit.
+
+Shadow IT refers to individuals who use technologies that lack IT governance. A common example is when an employee uses their personal email to send work-related communications.
+
+An advanced persistent threat (APT) refers to instances when a threat actor maintains unauthorized access to a system for an extended period of time. The term is mostly associated with nation states and state-sponsored actors. Typically, an APT is concerned with surveilling a target to gather information. They then use the intel to manipulate government, defense, financial, and telecom services.
+
+Direct access, referring to instances when they have physical access to a system
+
+Removable media, which includes portable hardware, like USB flash drives
+
+Social media platforms that are used for communication and content sharing
+
+Email, including both personal and business accounts
+
+Wireless networks on premises
+
+Cloud services usually provided by third-party organizations
+
+Supply chains like third-party vendors that can present a backdoor into systems
+
+
+
+
+Social engineering is a manipulation technique that exploits human error to gain private information, access, or valuables.
+
+prepare. At this stage, attackers gather information about their target.
+
+trust. This is often referred to as pretexting. Here, attackers use the information they gathered earlier to open a line of communication.
+
+persuasion tactics. This stage is where the earlier preparation really matters. This is when the attacker manipulates their target into volunteering information.
+
+disconnect from the target. After they collect the information they want, attackers break communication with their target. They disappear to cover their tracks.
+
+Preventing social engineering:
+1. Implementing managerial controls
+2. Staying informed of trends
+3. Sharing your knowledge with others
+
+Baiting is a social engineering tactic that tempts people into compromising their security. A common example is USB baiting that relies on someone finding an infected USB drive and plugging it into their device.
+
+Phishing is the use of digital communications to trick people into revealing sensitive data or deploying malicious software. It is one of the most common forms of social engineering, typically performed via email.
+
+Quid pro quo is a type of baiting used to trick someone into believing that they’ll be rewarded in return for sharing access, information, or money. For example, an attacker might impersonate a loan officer at a bank and call customers offering them a lower interest rate on their credit card. They'll tell the customers that they simply need to provide their account details to claim the deal.
+
+Tailgating is a social engineering tactic in which unauthorized people follow an authorized person into a restricted area. This technique is also sometimes referred to as piggybacking.
+
+Watering hole is a type of attack when a threat actor compromises a website frequently visited by a specific group of users. Oftentimes, these watering hole sites are infected with malicious software. An example is the Holy Water attack of 2020 that infected various religious, charity, and volunteer websites.
+
+Encouraging caution:
+1. Stay alert of suspicious communications and unknown people, especially when it comes to email. For example, look out for spelling errors and double-check the sender's name and email address.
+2. Be cautious about sharing information, especially over social media. Threat actors often search these platforms for any information they can use to their advantage.
+3. Control curiosity when something seems too good to be true. This can include wanting to click on attachments or links in emails and advertisements.
+
+The first is malicious attachments. These are files that are infected and can cause harm to the organization's systems.
+
+fake-data collection forms. These forms look like legitimate forms, like a survey. Unlike a real survey, they ask for sensitive information that isn't normally asked for in an email.
+
+ fraudulent web links. These open to malicious web pages that are designed to look like trusted brands. Unlike actual websites, these fraudulent sites are built to steal information, like login credentials.
+
+Smishing is the use of text messages to obtain sensitive information or to impersonate a known source. You've probably received these types of messages before. Not only are smishing messages annoying to receive, they're also difficult to prevent. That's why some attackers send them.
+
+Vishing is the exploitation of electronic voice communication to obtain sensitive information or impersonate a known source. During vishing attacks, criminals pretend to be someone they're not. For example, attackers might call pretending to be a company representative. 
+
+Email phishing is a type of attack sent via email in which threat actors send messages pretending to be a trusted person or entity.
+
+Spear phishing is a subset of email phishing in which specific people are purposefully targeted, such as the accountants of a small business.
+
+Whaling refers to a category of spear phishing attempts that are aimed at high-ranking executives in an organization.
+
+Angler phishing is a technique where attackers impersonate customer service representatives on social media.
+
+Malware is software designed to harm devices or networks.
+
+A virus is malicious code written to interfere with computer operations and cause damage to data and software.
+
+A worm is malware that can duplicate and spread itself across systems on its own. While viruses require users to perform an action like opening a file to duplicate, worms use an infected device as a host.
+
+A trojan, or Trojan horse, is malware that looks like a legitimate file or program. The name is a reference to an ancient Greek legend that's set in the city of Troy.
+
+Ransomware is a type of malicious attack where attackers encrypt an organization's data and demand payment to restore access.
+
+Spyware is malware that's used to gather and sell information without consent. Consent is a keyword in this case.
+
+Advertising-supported software, or adware, is a type of legitimate software that is sometimes used to display digital advertisements in applications.
+
+A PUA is a type of unwanted software that is bundled in with legitimate programs which might display ads, cause device slowdown, or install other software.
+
+scareware. This type of malware employs tactics to frighten users into infecting their own device.
+
+Fileless malware does not need to be installed by the user because it uses legitimate programs that are already installed to infect a computer. This type of infection resides in memory where the malware never touches the hard drive.
+
+A rootkit is malware that provides remote, administrative access to a computer. Most attackers use rootkits to open a backdoor to systems, allowing them to install other forms of malware or to conduct network security attacks.
+
+A botnet, short for “robot network,” is a collection of computers infected by malware that are under the control of a single threat actor, known as the “bot-herder.” Viruses, worms, and trojans are often used to spread the initial infection and turn the devices into a bot for the bot-herder.
+
+Cryptojacking is a form of malware that installs software to illegally mine cryptocurrencies.
+
+An intrusion detection system, or IDS, is an application that monitors system activity and alerts some possible intrusions. When abnormal activity is detected like, malware mining for coins, the IDS alerts security personnel.
+
+sign of a cryptojacking infection is slowdown. Other signs include increased CPU usage, sudden system crashes, and fast draining batteries. Another sign is unusually high electricity costs related to the resource- intensive process of crypto mining.
+
+Web-based exploits are malicious code or behavior that's used to take advantage of coding flaws in a web application.
+
+An injection attack is malicious code inserted into a vulnerable application. The infected application often appears to work normally.
+
+Cross site scripting, or XSS, is an injection attack that inserts code into a vulnerable website or web application. These attacks are often delivered by exploiting the two languages used by most websites, HTML and JavaScript.
+
+There are three main types of cross-site scripting attacks reflected, stored, and DOM-based:
+1. A reflected XSS attack is an instance where a malicious script is sent to the server and activated during the server's response. A common example of this is the search bar of a website.
+2. In a stored XSS attack, the malicious script isn't hidden in a link that needs to be sent to the server. Instead a stored XSS attack is an instance when malicious script is injected directly on the server.
+3. DOM-based XSS. DOM stands for Document Object Model, which is basically the source code of a website. A DOM-based XSS attack is an instance when malicious script exists in the web page a browser loads. Unlike reflected XSS, these attacks don't need to be sent to the server to activate.
+
+SQL is a programming language used to create, interact with, and request information from a database.
+
+A SQL injection is an attack that executes unexpected queries on a database. Like cross-site scripting, SQL injection occurs due to a lack of sanitized input.
+
+A prepared statement is a coding technique that executes SQL statements before passing them on to the database.
+
+A database is an organized collection of information or data in one place.
+
+A SQL query is a request for data from a database. 
+
+In-band, or classic, SQL injection is the most common type. An in-band injection is one that uses the same communication channel to launch the attack and gather the results.
+
+An out-of-band injection is one that uses a different communication channel  to launch the attack and gather the results.
+
+Inferential SQL injection occurs when an attacker is unable to directly see the results of their attack. Instead, they can interpret the results by analyzing the behavior of the system.
+
+Input sanitization: programming that removes user input which could be interpreted as code.
+
+Input validation: programming that ensures user input meets a system's expectations.
+
+Threat modeling is a process of identifying assets, their vulnerabilities, and how each is exposed to threats. We apply threat modeling to everything we protect.
+
+In general, there are six steps of a threat model:
+1. define the scope of the model. At this stage, the team determines what they're building by creating an inventory of assets and classifying them.
+2. identify threats. Here, the team defines all potential threat actors. A threat actor is any person or group who presents a security risk. Threat actors are characterized as being internal or external.
+3. characterize the environment. Here, the team applies an attacker mindset to the business. They consider how the customers and employees interact with the environment.
+4. analyze threats. Here, the team works together to examine existing protections and identify gaps. They then rank threats according to their risk score that they assign.
+5. how to mitigate risk. At this point, the group creates their plan for defending against threats. The choices here are to avoid risk, transfer it, reduce it, or accept it.
+6. evaluate findings. At this stage, everything that was done during the exercise is documented, fixes are applied, and the team makes note of any successes they had. They also record any lessons learned, so they can inform how they approach future threat models.
+
+PASTA is a popular threat modeling framework that's used across many industries. PASTA is short for Process for Attack Simulation and Threat Analysis.
+
+1. define business and security objectives. Before starting the threat model, the team needs to decide what their goals are.
+2. define the technical scope. Here, the team's focus is to identify the application components that must be evaluated.
+3. decompose the application. In other words, we need to identify the existing controls that will protect user data from threats.
+4. perform a threat analysis. This is where the team gets into their attacker mindset.
+5. performing a vulnerability analysis. In this stage, the team more deeply investigates potential vulnerabilities by considering the root of the problem.
+6. conducts attack modeling. This is where the team tests the vulnerabilities that were analyzed in stage five by simulating attacks.
+7. analyze risk and impact. Here, the team assembles all the information they've collected in stages one through six.
+
+STRIDE is a threat-modeling framework developed by Microsoft. It’s commonly used to identify vulnerabilities in six specific attack vectors. The acronym represents each of these vectors: spoofing, tampering, repudiation, information disclosure, denial of service, and elevation of privilege.
+
+Trike is an open source methodology and tool that takes a security-centric approach to threat modeling. It's commonly used to focus on security permissions, application use cases, privilege models, and other elements that support a secure environment.
+
+The Visual, Agile, and Simple Threat (VAST) Modeling framework is part of an automated threat-modeling platform called ThreatModeler®. Many security teams opt to use VAST as a way of automating and streamlining their threat modeling assessments.
+
+Threat modeling is the process of identifying assets, their vulnerabilities, and how each is exposed to threats. It is a strategic approach that combines various security activities, such as vulnerability management, threat analysis, and incident response.
+
+Application programming interface (API): An API is a set of rules that define how software components interact with each other. In application development, third-party APIs are commonly used to add functionality without having to program it from scratch.
+
+Public key infrastructure (PKI): PKI is an encryption framework that secures the exchange of online information. The mobile app uses a combination of symmetric and asymmetric encryption algorithms: AES and RSA. AES encryption is used to encrypt sensitive data, such as credit card information. RSA encryption is used to exchange keys between the app and a user's device.
+
+SHA-256: SHA-256 is a commonly used hash function that takes an input of any length and produces a digest of 256 bits. The sneaker app will use SHA-256 to protect sensitive user data, like passwords and credit card numbers.
+
+Advanced persistent threat (APT): Instances when a threat actor maintains unauthorized access to a system for an extended period of time 
+
+Dropper: A type of malware that comes packed with malicious code which is delivered and installed onto a target system
+
+Hacker: Any person or group who uses computers to gain unauthorized access to data
+
+Phishing kit: A collection of software tools needed to launch a phishing campaign
+
+Quid pro quo: A type of baiting used to trick someone into believing that they’ll be rewarded in return for sharing access, information, or money
+
+
+
+
+The NIST incident response lifecycle is another NIST framework with additional substeps dedicated to incident response. It begins with preparation. Next, detection and analysis, and then containment, eradication and recovery, and finally post-incident activity.
+
+an incident is "an occurrence that actually or imminently jeopardizes, without lawful authority, the confidentiality, integrity, or availability of information or an information system; or constitutes a violation or imminent threat of violation of law, security policies, security procedures, or acceptable use policies." Whoa, that's a lot to take in. Let's break it down.
+
+An incident investigation reveals critical information about the five W's of an incident: who triggered the incident, what happened, when the incident took place, where the incident took place, and why the incident occurred.
+
+Computer security incident response teams, or CSIRTs, are a specialized group of security professionals that are trained in incident management and response. The goal of CSIRTs are to effectively and efficiently manage incidents, provide services and resources for response and recovery, and prevent future incidents from occurring.
+
+So how exactly does a CSIRT function? First, there's the security analyst. The analyst's job is to investigate security alerts to determine if an incident has occurred. If an incident has been detected, the analyst will determine the criticality rating of the incident. Some incidents can be easily remediated by the security analyst and don't require escalation. But if the incident is highly critical, it gets escalated to the technical lead, who provides technical leadership by guiding security incidents through their lifecycle.
+
+During this time, the incident coordinator tracks and manages the activities of the CSIRT and other teams involved in the response effort. Their job is to ensure that incident response processes are followed and that teams are regularly updated on the incident status. Not all CSIRTs are the same. Depending on the organization, a CSIRT can also be referred to as an Incident Handling Team, or IHT, or Security Incident Response Team, SIRT. Depending on an organization's structure, some teams can also have a broader or specialized focus. For example, some teams may be solely dedicated to crisis management and others may be incorporated with a SOC. Roles can have different names too. For example, a technical lead can also be known as an Ops lead.
+
+Command refers to having the appropriate leadership and direction to oversee the response.
+
+Control refers to the ability to manage technical aspects during incident response, like coordinating resources and assigning tasks.
+
+Communication refers to the ability to keep stakeholders informed.
+
+Roles in CSIRTs:
+1. Security analyst
+2. Technical lead
+3. Incident coordinator
+
+National Institute of Standards and Technology (NIST) Incident Response Lifecycle, which is a framework for incident response consisting of four phases:
+1. Preparation
+2. Detection and Analysis
+3. Containment, Eradication, and Recovery
+4. Post-incident activity
+
+The job of the security analyst is to continuously monitor an environment for any security threats. This includes: 
+1. Analyzing and triaging alerts
+2. Performing root-cause investigations
+3. Escalating or resolving alerts 
+
+Technical lead
+The job of the technical lead is to manage all of the technical aspects of the incident response process, such as applying software patches or updates. They do this by first determining the root cause of the incident. Then, they create and implement the strategies for containing, eradicating, and recovering from the incident.
+
+Incident coordinator
+Responding to an incident also requires cross-collaboration with nonsecurity professionals. CSIRTs will often consult with and leverage the expertise of members from external departments. The job of the incident coordinator is to coordinate with the relevant departments during a security incident.
+
+A security operations center (SOC) is an organizational unit dedicated to monitoring networks, systems, and devices for security threats or attacks. Structurally, a SOC (usually pronounced "sock") often exists as its own separate unit or within a CSIRT.
+
+Tier 1 SOC analyst
+The first tier is composed of the least experienced SOC analysts who are known as level 1s (L1s). They are responsible for:
+
+Monitoring, reviewing, and prioritizing alerts based on criticality or severity
+
+Creating and closing alerts using ticketing systems
+
+Escalating alert tickets to Tier 2 or Tier 3
+
+Tier 2 SOC analyst
+The second tier comprises the more experienced SOC analysts, or level 2s (L2s). They are responsible for: 
+
+Receiving escalated tickets from L1 and conducting deeper investigations
+
+Configuring and refining security tools
+
+Reporting to the SOC Lead
+
+Tier 3 SOC lead
+The third tier of a SOC is composed of the SOC leads, or level 3s (L3s). These highly experienced professionals are responsible for:
+
+Managing the operations of their team
+
+Exploring methods of detection by performing advanced detection techniques, such as malware and forensics analysis
+
+Reporting to the SOC manager
+
+SOC manager 
+The SOC manager is at the top of the pyramid and is responsible for: 
+
+Hiring, training, and evaluating the SOC team members
+
+Creating performance metrics and managing the performance of the SOC team
+
+Developing reports related to incidents, compliance, and auditing
+
+Communicating findings to stakeholders such as executive management   
+
+Other roles
+SOCs can also contain other specialized roles such as: 
+
+Forensic investigators: Forensic investigators are commonly L2s and L3s who collect, preserve, and analyze digital evidence related to security incidents to determine what happened.
+
+Threat hunters: Threat hunters are typically L3s who work to detect, analyze, and defend against new and advanced cybersecurity threats using threat intelligence.
+
+An incident response plan is a document that outlines the procedures to take in each step of incident response.
+
+Documentation is any form of recorded content that is used for a specific purpose.
+
+An intrusion detection system is an application that monitors system and network activity, and produces alerts on possible intrusions.
+
+Detection categories
+As a security analyst, you will investigate alerts that an IDS generates. There are four types of detection categories you should be familiar with:
+
+- A true positive is an alert that correctly detects the presence of an attack.
+- A true negative is a state where there is no detection of malicious activity. This is when no malicious activity exists and no alert is triggered. 
+- A false positive is an alert that incorrectly detects the presence of a threat. This is when an IDS identifies an activity as malicious, but it isn't. False positives are an inconvenience for security teams because they spend time and resources investigating an illegitimate alert. 
+- A false negative is a state where the presence of a threat is not detected. This is when malicious activity happens but an IDS fails to detect it. False negatives are dangerous because security teams are left unaware of legitimate attacks that they can be vulnerable to. 
+
+An intrusion prevention system (IPS) is an application that monitors system activity for intrusive activity and takes action to stop the activity.
+
+Endpoint detection and response (EDR) is an application that monitors an endpoint for malicious activity. EDR tools are installed on endpoints. Remember that an endpoint is any device connected on a network. Examples include end-user devices, like computers, phones, tablets, and more.
+
+SIEM is a tool that collects and analyzes log data to monitor critical activities in an organization.
+
+ecurity orchestration, automation, and response (SOAR) is a collection of applications, tools, and workflows that uses automation to respond to security events.
+
+Computer security incident response teams (CSIRT): A specialized group of security professionals that are trained in incident management and response 
+
+Documentation: Any form of recorded content that is used for a specific purpose 
+
+Endpoint detection and response (EDR): An application that monitors an endpoint for malicious activity
+
+Event: An observable occurrence on a network, system, or device
+
+False negative: A state where the presence of a threat is not detected
+
+False positive: An alert that incorrectly detects the presence of a threat
+
+Incident: An occurrence that actually or imminently jeopardizes, without lawful authority, the confidentiality, integrity, or availability of information or an information system; or constitutes a violation or imminent threat of violation of law, security policies, security procedures, or acceptable use policies
+
+Incident handler’s journal: A form of documentation used in incident response
+
+Incident response plan: A document that outlines the procedures to take in each step of incident response
+
+Intrusion detection system (IDS): An application that monitors system activity and alerts on possible intrusions
+
+Intrusion prevention system (IPS): An application that monitors system activity for intrusive activity and takes action to stop the activity
+
+National Institute of Standards and Technology (NIST) Incident Response Lifecycle: A framework for incident response consisting of four phases: Preparation; Detection and Analysis; Containment, Eradication, and Recovery; and Post-incident activity
+
+Playbook: A manual that provides details about any operational action
+
+Security information and event management (SIEM): An application that collects and analyzes log data to monitor critical activities in an organization 
+
+Security operations center (SOC): An organizational unit dedicated to monitoring networks, systems, and devices for security threats or attacks
+
+Security orchestration, automation, and response (SOAR): A collection of applications, tools, and workflows that uses automation to respond to security events
+
+True negative: A state where there is no detection of malicious activity
+
+True positive An alert that correctly detects the presence of an attack  
+
+
+IPV4
+
+Version: This field indicates the IP version. For an IPv4 header, IPv4 is used. 
+
+Internet Header Length (IHL): This field specifies the length of the IPv4 header including any Options.
+
+Type of Service (ToS): This field provides information about packet priority for delivery.
+
+Total Length: This field specifies the total length of the entire IP packet including the header and the data.
+
+Identification: Packets that are too large to send are fragmented into smaller pieces. This field specifies a unique identifier for fragments of an original IP packet so that they can be reassembled once they reach their destination.
+
+Flags: This field provides information about packet fragmentation including whether the original packet has been fragmented and if there are more fragments in transit.
+
+Fragment Offset: This field is used to identify the correct sequence of fragments.
+
+Time to Live (TTL): This field limits how long a packet can be circulated in a network, preventing packets from being forwarded by routers indefinitely.
+
+Protocol: This field specifies the protocol used for the data portion of the packet.
+
+Header Checksum: This field specifies a checksum value which is used for error-checking the header.
+
+Source Address: This field specifies the source address of the sender.
+
+Destination Address: This field specifies the destination address of the receiver.
+
+Options: This field is optional and can be used to apply security options to a packet.
+
+
+IPV6
+
+Version: This field indicates the IP version. For an IPv6 header, IPv6 is used.
+
+Traffic Class: This field is similar to the IPv4 Type of Service field. The Traffic Class field provides information about the packet's priority or class to help with packet delivery.
+
+Flow Label: This field identifies the packets of a flow. A flow is the sequence of packets sent from a specific source. 
+
+Payload Length: This field specifies the length of the data portion of the packet.
+
+Next Header: This field indicates the type of header that follows the IPv6 header such as TCP.
+
+Hop Limit: This field is similar to the IPv4 Time to Live field. The Hop Limit limits how long a packet can travel in a network before being discarded.
+
+Source Address: This field specifies the source address of the sender.
+
+Destination Address: This field specifies the destination address of the receiver.
+
+
+Wireshark is an open-source network protocol analyzer. It uses a graphical user interface (GUI), which makes it easier to visualize network communications for packet analysis purposes.
+
+The contains operator is used to filter packets that contain an exact match of a string of text. Here is an example of a filter that displays all HTTP streams that match the keyword "moved". 
+
+Command and control (C2): The techniques used by malicious actors to maintain communications with compromised systems
+
+Command-line interface (CLI): A text-based user interface that uses commands to interact with the computer
+
+Data exfiltration: Unauthorized transmission of data from a system
+
+Data packet: A basic unit of information that travels from one device to another within a network
+
+Indicators of compromise (IoC): Observable evidence that suggests signs of a potential security incident
+
+Internet Protocol (IP): A set of standards used for routing and addressing data packets as they travel between devices on a network
+
+Intrusion detection systems (IDS): An application that monitors system activity and alerts on possible intrusions
+
+Media Access Control (MAC) Address: A unique alphanumeric identifier that is assigned to each physical device on a network
+
+National Institute of Standards and Technology (NIST) Incident Response Lifecycle: A framework for incident response consisting of four phases: Preparation; Detection and Analysis; Containment, Eradication and Recovery; and Post-incident activity
+
+Network data: The data that’s transmitted between devices on a network 
+
+Network protocol analyzer (packet sniffer): A tool designed to capture and analyze data traffic within a network
+
+Network traffic: The amount of data that moves across a network 
+
+Network Interface Card (NIC): Hardware that connects computers to a network
+
+Packet capture (p-cap): A file containing data packets intercepted from an interface or network
+
+Packet sniffing: The practice of capturing and inspecting data packets across a network
+
+Playbook: A manual that provides details about any operational action
+
+Root user (or superuser): A user with elevated privileges to modify the system
+
+Sudo: A command that temporarily grants elevated permissions to specific users
+
+tcpdump: A command-line network protocol analyzer
+
+Wireshark: An open-source network protocol analyzer
+
+
+
+Detection enables the prompt discovery of security events.
+
+Analysis involves the investigation and validation of alerts. 
+
+The challenge with detection is it's impossible to detect everything.
+
+Analysts often receive a high volume of alerts per shift
+
+Threat hunting is the proactive search for threats on a network. Security professionals use threat hunting to uncover malicious activity that was not identified by detection tools and as a way to do further analysis on detections.
+
+ threat intelligence, which is evidence-based threat information that provides context about existing or emerging threats. 
+
+Industry reports: These often include details about attacker's tactics, techniques, and procedures (TTP).
+
+Government advisories: Similar to industry reports, government advisories include details about attackers' TTP. 
+
+Threat data feeds: Threat data feeds provide a stream of threat-related data that can be used to help protect against sophisticated attackers like advanced persistent threats (APTs). 
+
+APTs are instances when a threat actor maintains unauthorized access to a system for an extended period of time. The data is usually a list of indicators like IP addresses, domains, and file hashes.
+
+Cyber deception involves techniques that deliberately deceive malicious actors with the goal of increasing detection and improving defensive strategies.
+
+Honeypots are an example of an active cyber defense mechanism that uses deception technology. Honeypots are systems or resources that are created as decoys vulnerable to attacks with the purpose of attracting potential intruders.
+
+Indicators of compromise (IoCs) are observable evidence that suggests signs of a potential security incident. IoCs chart specific pieces of evidence that are associated with an attack, like a file name associated with a type of malware.
+
+Indicators of attack (IoA) are the series of observed events that indicate a real-time incident.  IoAs focus on identifying the behavioral evidence of an attacker, including their methods and intentions.
+
+Pyramid of Pain:
+
+1. Hash values: Hashes that correspond to known malicious files. These are often used to provide unique references to specific samples of malware or to files involved in an intrusion.
+
+2. IP addresses: An internet protocol address like 192.168.1.1
+
+3. Domain names: A web address such as www.google.com 
+
+4. Network artifacts: Observable evidence created by malicious actors on a network. For example, information found in network protocols such as User-Agent strings. 
+
+5. Host artifacts: Observable evidence created by malicious actors on a host. A host is any device that’s connected on a network. For example, the name of a file created by malware.
+
+6. Tools: Software that’s used by a malicious actor to achieve their goal. For example, attackers can use password cracking tools like John the Ripper to perform password attacks to gain access into an account.
+
+7. Tactics, techniques, and procedures (TTPs): This is the behavior of a malicious actor. Tactics refer to the high-level overview of the behavior. Techniques provide detailed descriptions of the behavior relating to the tactic. Procedures are highly detailed descriptions of the technique. TTPs are the hardest to detect. 
+
+Threat intelligence is evidence-based threat information that provides context about existing or emerging threats.
+
+Crowdsourcing is the practice of gathering information using public input and collaboration.
+
+Open-source intelligence (OSINT) is the collection and analysis of information from publicly available sources to generate usable intelligence. OSINT can also be used as a method to gather information related to threat actors, threats, vulnerabilities, and more.
+
+VirusTotal is a service that allows anyone to analyze suspicious files, domains, URLs, and IP addresses for malicious content. VirusTotal also offers additional services and tools for enterprise use. This reading focuses on the VirusTotal website, which is available for free and non-commercial use.
+
+Detection: The Detection tab provides a list of third-party security vendors and their detection verdicts on an IoC. For example, vendors can list their detection verdict as malicious, suspicious, unsafe, and more.
+
+Details: The Details tab provides additional information extracted from a static analysis of the IoC. Information such as different hashes, file types, file sizes, headers, creation time, and first and last submission information can all be found in this tab.
+
+Relations: The Relations tab provides related IoCs that are somehow connected to an artifact, such as contacted URLs, domains, IP addresses, and dropped files if the artifact is an executable.
+
+Behavior: The Behavior tab contains information related to the observed activity and behaviors of an artifact after executing it in a controlled or sandboxed environment. This information includes tactics and techniques detected, network communications, registry and file systems actions, processes, and more.
+
+Community: The Community tab is where members of the VirusTotal community, such as security professionals or researchers, can leave comments and insights about the IoC. 
+
+Vendors’ ratio and community score: The score displayed at the top of the report is the vendors’ ratio. The vendors’ ratio shows how many security vendors have flagged the IoC as malicious overall. Below this score, there is also the community score, based on the inputs of the VirusTotal community. The more detections a file has and the higher its community score is, the more likely that the file is malicious.
+
+Jotti's malware scan is a free service that lets you scan suspicious files with several antivirus programs. There are some limitations to the number of files that you can submit. 
+
+Urlscan.io is a free service that scans and analyzes URLs and provides a detailed report summarizing the URL information.
+
+MalwareBazaar is a free repository for malware samples. Malware samples are a great source of threat intelligence that can be used for research purposes. 
+
+
+Chain of custody is the process of documenting evidence possession and control during an incident lifecycle.
+
+Documentation is any form of recorded content that is used for a specific purpose, and it is essential in the field of security. Security teams use documentation to support investigations, complete tasks, and communicate findings.
+
+transparency is critical for demonstrating compliance with regulations and internal processes, meeting insurance requirements, and for legal proceedings.
+
+Standardization through repeatable processes and procedures supports continuous improvement efforts, helps with knowledge transfer, and facilitates the onboarding of new team members. Standards are references that inform how to set policies.
+
+Ideally, all documentation provides clarity to its audience. Clear documentation helps people quickly access the information they need so they can take necessary action. Security analysts are required to document the reasoning behind any action they take so that it’s clear to their team why an alert was escalated or closed.
+
+Travel itineraries are essential documents to have, especially for travel to a new place.
+
+playbook is a manual that provides details about any operational action.
+
+non-automated playbook, which requires step-by-step actions performed by an analyst.
+
+Automated playbooks automate tasks in incident response processes. 
+
+semi-automated playbooks combine a person's action with automation.
+
+Triage is the prioritizing of incidents according to their level of importance or urgency. The triage process helps security teams evaluate and prioritize security alerts and allocate resources effectively so that the most critical issues are addressed first. 
+
+receive and assess the alert to determine if it's a false positive and whether it's related to an existing incident.
+
+assign priority on the alert based on the organization's policy and guidelines. The priority level defines how the organization's security team will respond to the incident.
+
+collect and analyze any evidence associated with the alert, such as system logs.
+
+Is the alert a false positive? Security analysts must determine whether the alert is a genuine security concern or a false positive, or an alert that incorrectly detects the presence of a threat.
+
+Was this alert triggered in the past? If so, how was it resolved? The history of an alert can help determine whether the alert is a new or recurring issue. 
+
+Is the alert triggered by a known vulnerability? If an alert is triggered by a known vulnerability, security analysts can leverage existing knowledge to determine an appropriate response and minimize the impact of the vulnerability. 
+
+What is the severity of the alert? The severity of an alert can help determine the priority of the response so that critical issues are quickly escalated.
+
+Functional impact: Security incidents that target information technology systems impact the service that these systems provide to its users.
+
+Information impact: Incidents can affect the confidentiality, integrity, and availability of an organization’s data and information. In a data exfiltration attack, malicious actors can steal sensitive data.
+
+Recoverability: How an organization recovers from an incident depends on the size and scope of the incident and the amount of resources available. In some cases, recovery might not be possible, like when a malicious actor successfully steals proprietary data and shares it publicly.
+
+Resource management: Triaging alerts allows security teams to focus their resources on threats that require urgent attention. This helps team members avoid dedicating time and resources to lower priority tasks and might also reduce response time.
+
+Standardized approach: Triage provides a standardized approach to incident handling. Process documentation, like playbooks, help to move alerts through an iterative process to ensure that alerts are properly assessed and validated. This ensures that only valid alerts are moved up to investigate.
+
+business continuity plan (BCP) is a document that outlines the procedures to sustain business operations during and after a significant disruption.
+
+Resilience is the ability to prepare for, respond to, and recover from disruptions. Organizations can design their systems to be resilient so that they can continue delivering services despite facing disruptions.
+
+Hot sites: A fully operational facility that is a duplicate of an organization's primary environment. Hot sites can be activated immediately when an organization's primary site experiences failure or disruption.
+
+Warm sites: A facility that contains a fully updated and configured version of the hot site. Unlike hot sites, warm sites are not fully operational and available for immediate use but can quickly be made operational when a failure or disruption occurs.
+
+Cold sites: A backup facility equipped with some of the necessary infrastructure required to operate an organization's site. When a disruption or failure occurs, cold sites might not be ready for immediate use and might need additional work to be operational.
+
+
+The post-incident activity phase entails the process of reviewing an incident to identify areas for improvement during incident handling.
+
+The final report is documentation that provides a comprehensive review of an incident.
+
+Executive summary: A high-level summary of the report including the key findings and essential facts related to the incident
+
+Timeline:  A detailed chronological timeline of the incident that includes timestamps dating the sequence of events that led to the incident
+
+Investigation: A compilation of the actions taken during the detection and analysis of the incident. For example, analysis of a network artifact such as a packet capture reveals information about what activities happen on a network.
+
+Recommendations: A list of suggested actions for future prevention
+
+What happened?
+
+What time did it happen?
+
+Who discovered it?
+
+How did it get contained?
+
+What were the actions taken for recovery?
+
+What could have been done differently?
+
+
+
+A log is a record of events that occur within an organization's systems.
+Date, time, location, action, names
+
+These include network logs, which are generated by devices such as proxies, routers, switches, and firewalls
+system logs, which are generated by operating systems.
+application logs, which are logs related to software applications
+security logs, which are generated by security tools like IDS or IPS
+authentication logs, which record login attempts.
+
+Syslog is both a protocol and a log format. As a protocol, it transports and writes logs.
+The header contains data fields like Timestamp, the Hostname, the Application name, and the Message ID.
+The structured-data portion contains additional data information in key-value pairs.
+Lastly, the message component contains the detailed log message about the event.
+
+Protocol: The syslog protocol is used to transport logs to a centralized log server for log management. It uses port 514 for plaintext logs and port 6514 for encrypted logs.
+
+Service: The syslog service acts as a log forwarding service that consolidates logs from multiple sources into a single location. The service works by receiving and then forwarding any syslog log entries to a remote server. 
+
+Log format: The syslog log format is one of the most commonly used log formats that you will be focusing on. It is the native logging format used in  Unix® systems. It consists of three components: a header, structured-data, and a message.
+
+XML (eXtensible Markup Language) is a language and a format used for storing and transmitting data. XML is a native file format used in Windows systems. XML syntax uses the following:
+Tags
+Elements
+Attributes
+
+JSON is known for its simplicity and easy readability. As a security analyst, you'll use JSON to read and write data like logs.
+
+CSV (Comma Separated Value) uses commas to separate data values. In CSV logs, the position of the data corresponds to its field name, but the field names themselves might not be included in the log. It’s critical to understand what fields the source device (like an IPS, firewall, scanner, etc.) is including in the log. 
+
+Common Event Format (CEF) is a log format that uses key-value pairs to structure data and identify fields and their corresponding values. The CEF syntax is defined as containing the following fields: 
+
+CEF:Version|Device Vendor|Device Product|Device Version|Signature ID|Name|Severity|Extension 
+
+Telemetry is the collection and transmission of data for analysis.
+
+IDS is an application that monitors activity and alerts on possible intrusions.
+
+An endpoint is any device connected on a network, such as a laptop, tablet, desktop computer, or a smartphone. 
+
+a host-based intrusion detection system can be used. It's an application that monitors the activity of the host on which it's installed. To clarify, a host is any device that communicates with other devices on a network, similar to an endpoint.
+
+A network-based intrusion detection system collects and analyzes network traffic and network data.
+
+Signature analysis is a detection method used to find events of interest. 
+
+Anomaly-based analysis is a detection method that identifies abnormal behavior. 
+There are two phases to anomaly-based analysis: a training phase and a detection phase. In the training phase, a baseline of normal or expected behavior must be established. Baselines are developed by collecting data that corresponds to normal system behavior. 
+In the detection phase, the current system activity is compared against this baseline. Activity that happens outside of the baseline gets logged, and an alert is generated. 
+
+Collect and aggregate data: SIEM tools collect event data from various data sources.
+
+Normalize data: Event data that's been collected becomes normalized. Normalization converts data into a standard format so that data is structured in a consistent way and becomes easier to read and search. While data normalization is a common feature in many SIEM tools, it's important to note that SIEM tools vary in their data normalization capabilities.
+
+Analyze data: After the data is collected and normalized, SIEM tools analyze and correlate the data to identify common patterns that indicate unusual activity.
+
+Log forwarders are software that automate the process of collecting and sending log data.
+
+Search Processing Language (SPL). SPL is used to search and retrieve events from indexes using Splunk’s Search & Reporting app. 
+
+ piping sends the output of one command as the input to another command.
+
+A wildcard is a special character that can be substituted with any other character. A wildcard is usually symbolized by an asterisk character *.
+
+The UDM Search is the default search type used in Chronicle. You can perform a UDM search by typing your search, clicking on “Search,” and selecting “UDM Search.”
+
+Entities: Entities are also known as nouns. All UDM events must contain at least one entity. This field provides additional context about a device, user, or process that’s involved in an event.
+
+Event metadata: This field provides a basic description of an event, including what type of event it is, timestamps, and more. 
+
+Network metadata: This field provides information about network-related events and protocol details. 
+
+Security results: This field provides the security-related outcome of events. An example of a security result can be an antivirus software detecting and quarantining a malicious file by reporting "virus detected and quarantined." 
+
+Anomaly-based analysis: A detection method that identifies abnormal behavior 
+
+Array: A data type that stores data in a comma-separated ordered list
+
+Common Event Format (CEF): A log format that uses key-value pairs to structure data and identify fields and their corresponding values
+
+Configuration file: A file used to configure the settings of an application
+
+Endpoint: Any device connected on a network
+
+Endpoint detection and response (EDR): An application that monitors an endpoint for malicious activity
+
+False positive: An alert that incorrectly detects the presence of a threat
+
+Host-based intrusion detection system (HIDS): An application that monitors the activity of the host on which it’s installed 
+
+Intrusion detection systems (IDS): An application that monitors system activity and alerts on possible intrusions
+
+Key-value pair: A set of data that represents two linked items: a key, and its corresponding value
+
+Log: A record of events that occur within an organization’s systems
+
+Log analysis: The process of examining logs to identify events of interest 
+
+Log management: The process of collecting, storing, analyzing, and disposing of log data
+
+Logging: The recording of events occurring on computer systems and networks
+
+Network-based intrusion detection system (NIDS): An application that collects and monitors network traffic and network data
+
+Object: A data type that stores data in a comma-separated list of key-value pairs
+
+Search Processing Language (SPL): Splunk’s query language
+
+Security information and event management (SIEM): An application that collects and analyzes log data to monitor critical activities in an organization 
+
+Signature: A pattern that is associated with malicious activity
+
+Signature analysis: A detection method used to find events interest
+
+Suricata: An open-source intrusion detection system, intrusion prevention system, and network analysis tool
+
+Telemetry: The collection and transmission of data for analysis
+
+Wildcard: A special character that can be substituted with any other character
+
+YARA-L: A computer language used to create rules for searching through ingested log data
+
+Zero-day: An exploit that was previously unknown
+
+
+
+
+Python is considered to be a general-purpose language.
+
+Programming is a process that can be used to create a specific set of instructions for a computer to execute tasks. 
+
+Automation is the use of technology to reduce human and manual effort to perform common and repetitive tasks.
+
+A comment is a note programmers make about the intention behind their code.
+
+Print outputs a specified object to the screen. After print, we put what we want to output in parentheses.
+
+Syntax refers to the rules that determine what is correctly structured in a computing language.
+
+A notebook is an online interface for writing, storing, and running code. 
+
+Code cells are meant for writing and running code.
+
+Markdown cells are meant for describing the code. 
+
+integrated development environment (IDE), or a software application for writing code that provides editing assistance and error correction tools.
+
+command-line interface (CLI) is a text-based user interface that uses commands to interact with the computer.
+
+>
+greater than
+
+<
+less than
+
+>=
+greater than or equal to
+
+<=
+less than or equal to
+
+==
+equal to
+
+!=
+not equal to
+
+Automation: The use of technology to reduce human and manual effort to perform common and repetitive tasks
+
+Boolean data: Data that can only be one of two values: either True or False
+
+Command-line interface: A text-based user interface that uses commands to interact with the computer
+
+Comment: A note programmers make about the intention behind their code
+
+Conditional statement: A statement that evaluates code to determine if it meets a specified set of conditions
+
+Data type: A category for a particular type of data item
+
+Dictionary data: Data that consists of one or more key-value pairs
+
+Float data: Data consisting of a number with a decimal point
+
+Integer data: Data consisting of a number that does not include a decimal point
+
+Integrated development environment (IDE): A software application for writing code that provides editing assistance and error correction tools
+
+Interpreter: A computer program that translates Python code into runnable instructions line by line 
+
+Iterative statement: Code that repeatedly executes a set of instructions
+
+List data: Data structure that consists of a collection of data in sequential form
+
+Loop variable: A variable that is used to control the iterations of a loop
+
+Notebook: An online interface for writing, storing, and running code 
+
+Programming: A process that can be used to create a specific set of instructions for a computer to execute tasks
+
+Set data: Data that consists of an unordered collection of unique values
+
+String data: Data consisting of an ordered sequence of characters
+
+Syntax: The rules that determine what is correctly structured in a computing language
+
+Tuple data: Data structure that consists of a collection of data that cannot be changed 
+
+Type error: An error that results from using the wrong data type
+
+Variable: A container that stores data
+
+Argument (Python): The data brought into a function when it is called
+
+Built-in function: A function that exists within Python and can be called directly
+
+Comment: A note programmers make about the intention behind their code
+
+Function: A section of code that can be reused in a program
+
+Global variable: A variable that is available through the entire program
+
+Indentation: Space added at the beginning of a line of code
+
+Library: A collection of modules that provide code users can access in their programs
+
+Local variable: A variable assigned within a function
+
+Module: A Python file that contains additional functions, variables, classes, and any kind of runnable code
+
+Parameter (Python): An object that is included in a function definition for use in that function
+
+PEP 8 style guide: A resource that provides stylistic guidelines for programmers working in Python 
+
+Python Standard Library: An extensive collection of Python code that often comes packaged with Python
+
+Return statement: A Python statement that executes inside a function and sends information back to the function call 
+
+Style guide: A manual that informs the writing, formatting, and design of documents
+
+User-defined function: A function that programmers design for their specific needs
+
+A regular expression (regex) is a sequence of characters that forms a pattern. You can use these in Python to search for a variety of patterns. This could include IP addresses, emails, or device IDs.
+
+Algorithm: A set of rules that solve a problem
+
+Bracket notation: The indices placed in square brackets 
+
+Debugging: The practice of identifying and fixing errors in code
+
+Immutable: An object that cannot be changed after it is created and assigned a value
+
+Index: A number assigned to every element in a sequence that indicates its position
+
+List concatenation: The concept of combining two lists into one by placing the elements of the second list directly after the elements of the first list
+
+List data: Data structure that consists of a collection of data in sequential form
+
+Method: A function that belongs to a specific data type
+
+Regular expression (regex): A sequence of characters that forms a pattern
+
+String concatenation: The process of joining two strings together
+
+String data: Data consisting of an ordered sequence of characters
+
+Substring: A continuous sequence of characters within a string
+
+Automation is the use of technology to reduce human and manual effort to perform common and repetitive tasks. As a security analyst, you will primarily use Python to automate tasks.
+
+A variable is a container that stores data. Variables are essential for automation. Without them, you would have to individually rewrite values for each action you took in Python.
+
+A conditional statement is a statement that evaluates code to determine if it meets a specified set of conditions.
+
+An iterative statement is code that repeatedly executes a set of instructions.
+
+A function is a section of code that can be reused in a program.
+
+Parsing is the process of converting data into a more readable format.
+
+The .split() method converts a string into a list. It separates the string based on a specified character that's passed into .split() as an argument. 
+
+The .join() method concatenates the elements of an iterable into a string.
+
+Automation: The use of technology to reduce human and manual effort to perform common and repetitive tasks
+
+Conditional statement: A statement that evaluates code to determine if it meets a specified set of conditions
+
+Debugger: A software tool that helps to locate the source of an error and assess its causes
+
+Debugging: The practice of identifying and fixing errors in code
+
+Exception: An error that involves code that cannot be executed even though it is syntactically correct
+
+File path: The location of a file or directory 
+
+Function: A section of code that can be reused in a program
+
+Integrated development environment (IDE): A software application for writing code that provides editing assistance and error correction tools
+
+Iterative statement: Code that repeatedly executes a set of instructions
+
+Log: A record of events that occur within an organization's systems 
+
+Logic error: An error that results when the logic used in code produces unintended results
+
+Parsing: The process of converting data into a more readable format
+
+Syntax error: An error that involves invalid usage of a programming language
+
+Variable: A container that stores data
+
+
+
+
+Public data is already accessible to the public and poses a minimal risk to the organization if viewed or shared by others.
+
+Private data is information that should be kept from the public.
+
+Sensitive data
+This information must be protected from everyone who does not have authorized access. Unauthorized access to sensitive data can cause significant damage to an organization’s finances and reputation. 
+
+Confidential data
+This data classification type is important for an organization’s ongoing business operations.
+
+Asset classification means labeling assets based on sensitivity and importance to an organization. The classification of an organization's assets ranges from low- to high-level. 
+
+A disaster recovery plan allows an organization’s security team to outline the steps needed to minimize the impact of a security incident, such as a successful ransomware attack that has stopped the manufacturing team from retrieving certain data.
+
+Business continuity plan (BCP): A document that outlines the procedures to sustain business operations during and after a significant disruption
+
+Confidential data: Data that often has limits on the number of people who have access to it
+
+Disaster recovery plan: A plan that allows an organization’s security team to outline the steps needed to minimize the impact of a security incident
+
+Private data: Information that should be kept from the public
+
+Public data: Data that is already accessible to the public and poses a minimal risk to the organization if viewed or shared by others
+
+Security mindset: The ability to evaluate risk and constantly seek out and identify the potential or actual breach of a system, application, or data
+
+Sensitive data: A type of data that includes personally identifiable information (PII), sensitive personally identifiable information (SPII), and protected health information (PHI)
+
+
+A data owner is the person that decides who can access, edit, use, or destroy their information. Data owners have administrative control over specific information hardware or software and are accountable for the classification, protection, access, and use of company data.
+
+Data controllers determine the procedure and purpose for processing data. This role largely focuses on collecting the personal information of customers.
+
+Data processors report directly to the data controller and are responsible for processing the data on behalf of the data controller.
+
+Data custodians assign and remove access to software or hardware. Custodians are responsible for implementing security controls for the data they are responsible for, granting and revoking access to that data, creating policies regarding how that data is stored and transmitted, advising on potential threats to that data, and monitoring the data.
+
+Data protection officers are responsible for monitoring the internal compliance of an organization’s data protection procedures. These individuals advise the security team on the obligations required by the organization's data protection standards and procedures.
+
+Data controller: A person that determines the procedure and purpose for processing data
+
+Data processor: A person that is responsible for processing data on behalf of the data controller
+
+Data protection officer (DPO): An individual that is responsible for monitoring the compliance of an organization's data protection procedures
+
+Escalation policy: A set of actions that outlines who should be notified when an incident alert occurs and how that incident should be handled
+
+Improper usage: An incident type that occurs when an employee of an organization violates the organization’s acceptable use policies
+
+Incident escalation: The process of identifying a potential security incident, triaging it, and handing it off to a more experienced team member
+
+Malware infection: An incident type that occurs when malicious software designed to disrupt a system infiltrates an organization’s computers or network
+
+Unauthorized access: An incident type that occurs when an individual gains digital or physical access to a system or an application without permission 
+
+
+Stakeholder: An individual or a group that has an interest in any decision or activity of an organization
+
+Visual dashboard: A way of displaying various types of data quickly in one place
+
+OWASP top 10 this is a globally recognized standard awareness document that lists the top 10 most critical security risks to web applications.
+
+The CSO Online site provides news, analysis, and research on various security and risk management topics. Many CSOs view this site for tips and ideas.
+
+Krebs on Security is an in-depth security blog created by former Washington Post reporter, Brian Krebs. This blog covers security news and investigations into various cyber attacks. Accessing the Krebs blog is a good way to stay up-to-date on the latest security news and happenings around the world.
+
+Dark Reading is a popular website for security professionals. This site provides information about various security topics like analytics and application security, mobile and cloud security, as well as the Internet of Things, IOT.
+
+Strategies for engaging with the cybersecurity community:
+Security organizations and conferences
+Find the right organization 
+Begin the search 
+Use social media 
+	“Incident response cybersecurity groups” 
+	“Organizations for cybersecurity analysts”
+Be aware of social engineering 
+Mailing lists for security  
+	A list focused on security threat information, best practices for cybersecurity, and analysis from CISA’s domestic and international security partners
+	A list providing weekly summaries of new vulnerabilities that might pose a risk to an organization’s network
+
+
+
+Work positions:
+
+Security analyst is typically an entry-level role that might interest you as you prepare to enter the security field. The role generally focuses on monitoring networks for security breaches, developing strategies to help secure an organization, and even researching IT security trends.
+
+Information security analyst. This role generally focuses on creating plans and implementing security measures to protect organizations' networks and systems.
+
+Security operations center analyst role. Security operations center analyst, also known as a SOC analyst, is another role you might find exciting. This role generally focuses on ensuring security incidents are handled rapidly and efficiently by following established policies and procedures.
+
+Where to look:
+ZipRecruiter, Indeed, and Monster Jobs.
+
+Your career identity is the unique value that you bring to the workforce based on who you are and what you have to offer now and in the future. It's informed by all of your life and work experiences and shaped by your strengths, motivations, and values.
+
+Your strengths are tasks and activities that you do well. They're the skills, knowledge, and talents you've gained throughout your life and work experiences. 
+
+Your motivations stem from your passions and your purpose. Knowing what fuels you is so important, because that's what keeps you going. Like I mentioned, I am passionate about storytelling with the English language.
+
+Your values reflect what's most important to you. They guide your approach to decision-making, developing relationships, and overcoming challenges. You may not always be aware of your values, but they are always with you even if they shift over time. These are things like integrity, responsibility, and kindness.
+
+I am a," roles, "with," number of years, "experience doing," accomplishment. "My greatest strength is," strength, "and I have a talent for," strength. "I am passionate about," motivation, "and I value," value. 
+
+"I am a content strategist and product marketer with over 10 years of experience helping businesses use new technologies to drive success. My greatest strength is collaborating and driving efficiencies across teams and I have a talent for crafting stories and creating marketing programs to successfully launch technology products. I am passionate about empowering brands to find and use solutions that work for them and helping builders of new technologies develop even better, more effective products. And most importantly, I value having fun and being collaborative, inclusive, and authentic while I do it."
+
+What is the TCP/IP model? 
+The TCP/IP model is a framework used to visualize how data is organized and transmitted across a network. 
+
+What is the OSI model?
+The OSI model stands for open systems interconnection (OSI) model. It is a standardized concept that describes the seven layers computers use to communicate and send data over the network. 
+
+What are SIEM tools and what are they used for? 
+SIEM tools are security information and event management tools that are used by security professionals to identify and analyze security threats, risks, and vulnerabilities. 
+
+Rapport is a friendly relationship in which the people involved understand each other's ideas and communicate well with each other. Building rapport begins with the very first interaction you have with the company's staff by phone, email, or video conference.
+
+The STAR Method is a technique used to answer behavioral and situational interview questions. Using this method is a great way to help you understand each interview question and provide a thoughtful and thorough response. STAR stands for: Situation, Task, Action, Result.
+
+The situation: Two people needed to stay home for work due to illness, and I was the only person available to assist customers.
+
+The task: I needed to answer phone calls from customers, while assisting shoppers in the store.
+
+The action: I came up with a strategy that allowed me to assist customers as they entered the store while also ensuring that customers who called were helped or politely placed on hold until I was able to address their needs.
+
+The result: I managed the in-store operations for the day without many mistakes, and my manager complimented me during the next team meeting.
+
+Talking points: The tool lets you know which topics you covered in your answer, such as your experience, skills, and goals. You’ll also be able to view other topics that you might want to consider covering.
+
+Most-used words: The tool highlights the words you used most often and suggests synonyms to broaden your word choices.
+
+Job-related terms: The tool highlights the words you used that are related to the role or industry in which you are preparing to work. You’ll also be able to view an entire list of job-related terms that you might want to consider including in your answer.
+
+An elevator pitch is a brief summary of your experience, skills, and background that should be communicated in 60 seconds or fewer.
+
